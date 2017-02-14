@@ -19,3 +19,7 @@ u.save
 Product.create!([title: "Aeron", price: 8888, quantity: 8])
 
 Product.create!([title: "Macbook Pro", price: 12000, quantity: 5])
+
+Product.create!([title: "Aeron", price: 10000, quantity: 17])
+
+Product.create!([title: "Macbook Pro", price: 20000, quantity: 5])
