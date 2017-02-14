@@ -15,3 +15,12 @@ u.password_confirmation = "123456"   # 最少要六码
 
 u.is_admin = true
 u.save
+
+
+Product.create!([title: "Aeron", price: 8888, quantity: 8])
+
+Product.create!([title: "Macbook Pro", price: 12000, quantity: 5])
+
+Product.create!([title: "Aeron", price: 9999, quantity: 12])
+
+Product.create!([title: "Macbook Pro 15寸", price: 20000, quantity: 20])
