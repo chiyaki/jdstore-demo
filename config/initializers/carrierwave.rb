@@ -24,7 +24,7 @@
   config.qiniu_secret_key    = 'qiniu_secret_key'
   config.qiniu_bucket        = "qiniu_bucket"
   config.qiniu_bucket_domain = "qiniu_bucket_domain"
-  config.qiniu_bucket_private= true #default is false
+  config.qiniu_bucket_private= false #default is false
   config.qiniu_block_size    = 4*1024*1024
   config.qiniu_protocol      = "http"
 
