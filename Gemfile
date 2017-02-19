@@ -44,6 +44,7 @@ gem 'letter_opener', group: :development
 gem 'figaro'
 gem 'fog'
 gem 'rollbar'
+gem 'carrierwave-qiniu'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
